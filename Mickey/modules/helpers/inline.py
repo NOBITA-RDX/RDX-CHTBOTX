@@ -19,7 +19,7 @@ DEV_OP = [
         InlineKeyboardButton(text="✯ 𝐇ᴇʟᴘ & 𝐂ᴍᴅs ✯", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="✯ 𝐒ᴏᴜʀᴄᴇ ✯", callback_data="https://graph.org/file/2f2325c7982e5d3409416.mp4"),
+        InlineKeyboardButton(text="✯ 𝐒ᴏᴜʀᴄᴇ ✯", url="https://graph.org/file/2f2325c7982e5d3409416.mp4"),
         InlineKeyboardButton(text="✯ 𝐀ʙᴏᴜᴛ ✯", callback_data="ABOUT"),
     ],
 ]
@@ -50,7 +50,7 @@ BACK = [
 HELP_BTN = [
     [
         InlineKeyboardButton(text="✯ 𝐂ʜᴀᴛʙᴏᴛ ✯", callback_data="CHATBOT_CMD"),
-        InlineKeyboardButton(text="✯ 𝐓𝐇ᴏʟs ✯", callback_data="TOOLS_DATA"),
+        InlineKeyboardButton(text="✯ 𝐓ᴏᴏʟs ✯", callback_data="TOOLS_DATA"),
     ],
     [
         InlineKeyboardButton(text="✯ 𝐁ᴀᴄᴋ ✯", callback_data="BACK"),
@@ -121,10 +121,10 @@ ABOUT_BTN = [
     ],
     [
         InlineKeyboardButton(text="✯ 𝐎ᴡɴᴇʀ ✯", user_id="1777270311"),
-        InlineKeyboardButton(text="✯ 𝐒ᴏᴜʀᴄᴇ ✯", callback_data="https://graph.org/file/2f2325c7982e5d3409416.mp4"),
+        InlineKeyboardButton(text="✯ 𝐒ᴏᴜʀᴄᴇ ✯", url="https://graph.org/file/2f2325c7982e5d3409416.mp4"),
     ],
     [
-        InlineKeyboardButton(text="✯ 𝐔ᴘᴅᴀᴛᴇs ✯", url=f"https://t.me/RDX_VEMPIRE"),
+        InlineKeyboardButton(text="✯ 𝐔ᴘᴅᴀᴛᴇs ✯", url="https://t.me/RDX_VEMPIRE"),
         InlineKeyboardButton(text="✯ 𝐁ᴀᴄᴋ ✯", callback_data="BACK"),
     ],
 ]

@@ -1,5 +1,5 @@
-# Don't remove This Line From Here. Tg: @Dev_Arora_0981 | @DevArora0981
-# Github :- Devarora-0981 | Devarora2604
+# Don't remove This Line From Here. Tg: @rajdausaardxop | @J4jaaanu
+# Github :- NobitaRdX | XhackerRdX
 
 import random
 from datetime import datetime
@@ -30,7 +30,7 @@ async def ping(_, message: Message):
 
     ms = (datetime.now() - start).microseconds / 1000
     await loda.edit_text(
-        text=f"нey вαву!!\n{MickeyBot.name} ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n<b>|| мαdє ωιтн ❣️ ву [ᴅᴇᴠ](https://t.me/{OWNER_USERNAME}) ||</b>",
+        text=f"нey вαву!!\n{MickeyBot.name} ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n<b>|| мαdє ωιтн ❣️ ву [『♕︎𓆩𝗥𝗗𝗫𓆪𝗥⟁𝗝™♕︎』](https://t.me/rajdausaardxop) ||</b>",
         reply_markup=InlineKeyboardMarkup(PNG_BTN),
     )
     if message.chat.type == ChatType.PRIVATE:

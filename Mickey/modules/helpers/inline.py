@@ -6,28 +6,27 @@ from Mickey import MickeyBot
 
 DEV_OP = [
     [
-        InlineKeyboardButton(text="✯ 𝐎ᴡɴᴇʀ ✯", user_id="1777270311"),
-        InlineKeyboardButton(text="✯ 𝐒ᴜᴘᴘᴏʀᴛ ✯", url=f"https://t.me/HORRIBLE_STUDY"),
-    ],
-    [
         InlineKeyboardButton(
-            text="✯ 𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ ✯",
+            text="ᴀᴅᴅ ᴍᴇ ᴜʜʜ ʙᴀʙʏ",
             url=f"https://t.me/{MickeyBot.username}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="✯ 𝐇ᴇʟᴘ & 𝐂ᴍᴅs ✯", callback_data="HELP"),
+        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴍᴅs", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="✯ 𝐒ᴏᴜʀᴄᴇ ✯", url="https://graph.org/file/2f2325c7982e5d3409416.mp4"),
-        InlineKeyboardButton(text="✯ 𝐀ʙᴏᴜᴛ ✯", callback_data="ABOUT"),
+        InlineKeyboardButton(text="💜", url="https://t.me/+GEooO-YpKXlhNjA1"),
+        InlineKeyboardButton(text="💙", callback_data="ABOUT"),
+        InlineKeyboardButton(text="𓆩🖤𓆪", user_id="1777270311"),
+        InlineKeyboardButton(text="💚", url="https://t.me/+xWcg-WBN1oBjMjk1"),
+        InlineKeyboardButton(text="💛", url="https://youtube.com/@LofiBoyraj"),
     ],
 ]
 
 PNG_BTN = [
     [
         InlineKeyboardButton(
-            text="✯ 𝐀ᴅᴅ 𝐌ᴇ 𝐁ᴀʙʏ ✯",
+            text="ᴀᴅᴅ ᴍᴇ ᴜʜʜ ʙᴀʙʏ",
             url=f"https://t.me/{MickeyBot.username}?startgroup=true",
         ),
     ],
@@ -116,15 +115,14 @@ HELP_BUTN = [
 
 ABOUT_BTN = [
     [
-        InlineKeyboardButton(text="✯ 𝐒ᴜᴘᴘᴏʀᴛ ✯", url=f"https://t.me/HORRIBLE_STUDY"),
-        InlineKeyboardButton(text="✯ 𝐇ᴇʟᴘ ✯", callback_data="HELP"),
+        InlineKeyboardButton(text="💙", url="https://t.me/+xWcg-WBN1oBjMjk1"),
+        InlineKeyboardButton(text="💜", callback_data="HELP"),
+        InlineKeyboardButton(text="𓆩🖤𓆪", user_id="1777270311"),
+        InlineKeyboardButton(text="💚", url="https://t.me/+FTpq6AVRnqMwZDRl"),
+        InlineKeyboardButton(text="🧡", url="https://t.me/+GEooO-YpKXlhNjA1",
+        ),
     ],
     [
-        InlineKeyboardButton(text="✯ 𝐎ᴡɴᴇʀ ✯", user_id="1777270311"),
-        InlineKeyboardButton(text="✯ 𝐒ᴏᴜʀᴄᴇ ✯", url="https://t.me/FriendsVempire"),
-    ],
-    [
-        InlineKeyboardButton(text="✯ 𝐔ᴘᴅᴀᴛᴇs ✯", url="https://t.me/RDX_SERVER"),
         InlineKeyboardButton(text="✯ 𝐁ᴀᴄᴋ ✯", callback_data="BACK"),
     ],
 ]

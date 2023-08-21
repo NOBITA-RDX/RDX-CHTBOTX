@@ -2,7 +2,7 @@
     ──「 ʀɪsʜɪᴋᴀ-sʜᴀʀᴍᴀ 」──
 </h2>
 <p align="center">
-  <img src="https://graph.org/file/6179fb7c1ecb642b80637.jpg">
+  <img src="https://graph.org/file/2fbd0ca06904082ecb5e5.jpg">
 </p>
 
 <h3 align="center">

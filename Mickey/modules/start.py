@@ -25,35 +25,6 @@ from Mickey.modules.helpers import (
 
 
 @MickeyBot.on_cmd(["start", "aistart"])
-async def start(_, m: Message):
-    if m.chat.type == ChatType.PRIVATE:
-        accha = await m.reply_text(
-            text=random.choice(EMOJIOS),
-        )
-        await asyncio.sleep(1.3)
-        await accha.edit("__ᴅιиg ᴅσиg ꨄ︎ ѕтαятιиg..__")
-        await asyncio.sleep(0.2)
-        await accha.edit("__ᴅιиg ᴅσиg ꨄ sтαятιиg.....__")
-        await asyncio.sleep(0.2)
-        await accha.edit("__ʜʏ ʙᴀʙʏ ꨄ︎ ɪ ʟᴏᴠᴇ ʏᴏᴜ..__")
-        await asyncio.sleep(0.2)
-        await accha.delete()
-        umm = await m.reply_sticker(sticker=random.choice(STICKER))
-        await asyncio.sleep(2)
-        await umm.delete()
-        await m.reply_photo(
-            photo=random.choice(IMG),
-            caption=f"""**๏ ʜᴇʏ, ɪ ᴀᴍ [{MickeyBot.name}](https://t.me/{MickeyBot.username})**\n**➻ ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.**\n**──────────────**\n**➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**\n<b>||๏ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ||</b>""",
-            reply_markup=InlineKeyboardMarkup(DEV_OP),
-        )
-        await add_served_user(m.from_user.id)
-    else:
-        await m.reply_photo(
-            photo=random.choice(IMG),
-            caption=START,
-            reply_markup=InlineKeyboardMarkup(HELP_START),
-        )
-        await add_served_chat(m.chat.id)
 
 
 @MickeyBot.on_cmd("help")
